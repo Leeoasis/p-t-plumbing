@@ -3,14 +3,14 @@ import Services from '../../assets/images/Plumbing.jpeg';
 import '../../styles/recentProjects.css';
 
 // Image Imports
-// Mokopane
-import MokImage1 from '../../assets/images/projects/Mokopane/mok1.jpg';
+// Bella Vista
+import Bella1 from '../../assets/images/projects/Bella/Bella1.jpg';
 
-// Woodprut Wildlife Estate
-import WoodImage1 from '../../assets/images/projects/wildEstate/wild4.jpg';
+// Bobsway
+import Bobs1 from '../../assets/images/projects/Bobsway/bobs1.jpg';
 
-// Lephalale
-import LepImage1 from '../../assets/images/projects/Lephalale/lep2.jpg';
+// Clifton
+import Clifton1 from '../../assets/images/projects/Clifton/clifton1.jpg';
 
 const RecentProjects = () => {
   const sectionRef = useRef(null);
@@ -56,30 +56,30 @@ const RecentProjects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-in-out float-up">
             <img
-              src={MokImage1}
+              src={Bella1}
               alt="first project"
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
-            <h3 className="text-xl font-semibold mb-2 text-orange-700">Mokopane</h3>
-            <p>We successfully completed a residential construction project in Mokopane, where we built a modern, durable house from the ground up. Our team managed every aspect of the build, from planning and design to construction and final touches. The result is a beautiful, functional home that meets the client's specifications and stands as a testament to our commitment to quality and attention to detail.</p>
+            <h3 className="text-xl font-semibold mb-2 text-orange-700">Bella Vista Estate</h3>
+            <p>We successfully completed a painting and tiling project at Bella Vista Estate, Kaapzicht Road. Our team handled every aspect of the project, from surface preparation to the final coat of paint and tile installation. The result is a beautifully finished space that enhances the aesthetic appeal and functionality of the property.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-in-out float-up delay-100">
             <img
-              src={WoodImage1}
+              src={Bobs1}
               alt="Project 2"
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
-            <h3 className="text-xl font-semibold mb-2 text-orange-700">Woodprut Wildlife Estate</h3>
-            <p>We recently completed a roofing project in Woodprut Wildlife Estate, where we provided expert roofing services for a residential property. Our team ensured that the roofing was not only durable and weather-resistant but also aesthetically aligned with the natural surroundings of the estate. The result is a robust and visually appealing roof that complements the beauty of the wildlife estate while providing long-lasting protection.</p>
+            <h3 className="text-xl font-semibold mb-2 text-orange-700">Eesteriver</h3>
+            <p>We successfully completed a bathroom renovation project at 149 Bobs Way, Eesteriver. Our team managed the entire renovation process, from initial design to final installation, ensuring that every detail was executed to the highest standards. The result is a modern, functional, and aesthetically pleasing bathroom that perfectly meets the client's needs and enhances the overall appeal of their home.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-in-out float-up delay-200">
             <img
-              src={LepImage1}
+              src={Clifton1}
               alt="Project 3"
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
-            <h3 className="text-xl font-semibold mb-2 text-orange-700">Lephalale</h3>
-            <p>We successfully completed the construction of a new house in Lephalale. Our team handled everything from the initial design phase to the final construction, ensuring that every detail met the highest standards of quality. The result is a beautiful, sturdy home that perfectly suits the client's needs and enhances the local landscape of Lephalale.</p>
+            <h3 className="text-xl font-semibold mb-2 text-orange-700">Camps Bay</h3>
+            <p>We recently completed a house renovation project at 6 Clifton Road, Camps Bay. Our team managed the entire renovation process, ensuring that every detail was executed to the highest standards. The result is a beautifully renovated home that perfectly blends modern amenities with the charm of the original structure, enhancing the overall appeal and functionality of the property.</p>
           </div>
         </div>
         <div className="text-center mt-12">

@@ -9,40 +9,42 @@ import { Carousel } from 'react-responsive-carousel';
 // Import project images
 import ProjectImage from '../assets/images/projects.jpg';
 
-// Mokopane
-import MokImage1 from '../assets/images/projects/Mokopane/mok1.jpg';
-import MokImage2 from '../assets/images/projects/Mokopane/mok2.jpg';
-import MokImage3 from '../assets/images/projects/Mokopane/mok3.jpg';
-import MokImage4 from '../assets/images/projects/Mokopane/mok4.jpg';
-import MokImage5 from '../assets/images/projects/Mokopane/mok5.jpg';
-import MokImage6 from '../assets/images/projects/Mokopane/mok6.jpg';
+// Bella
+import Bella1 from '../assets/images/projects/Bella/Bella1.jpg';
+import Bella2 from '../assets/images/projects/Bella/Bella2.jpg';
+import Bella3 from '../assets/images/projects/Bella/bella3.jpg';
+import Bella4 from '../assets/images/projects/Bella/Bella4.jpg';
+import Bella5 from '../assets/images/projects/Bella/Bella5.jpg';
+import Bella6 from '../assets/images/projects/Bella/Bella6.jpg';
 
-// Lephalale
-import LepImage1 from '../assets/images/projects/Lephalale/lep1.jpg';
-import LepImage2 from '../assets/images/projects/Lephalale/lep2.jpg';
-import LepImage3 from '../assets/images/projects/Lephalale/lep3.jpg';
+// Bobsway
+import Bobs1 from '../assets/images/projects/Bobsway/bobs1.jpg';
+import Bobs2 from '../assets/images/projects/Bobsway/bobs2.jpg';
+import Bobs3 from '../assets/images/projects/Bobsway/bobs3.jpg';
+import Bobs4 from '../assets/images/projects/Bobsway/bobs4.jpg';
 
-// Woodprut Wildlife Estate
-import WoodImage1 from '../assets/images/projects/wildEstate/wild1.jpg';
-import WoodImage2 from '../assets/images/projects/wildEstate/wild2.jpg';
-import WoodImage3 from '../assets/images/projects/wildEstate/wild3.jpg';
-import WoodImage4 from '../assets/images/projects/wildEstate/wild4.jpg';
-import WoodImage5 from '../assets/images/projects/wildEstate/wild5.jpg';
-import WoodImage6 from '../assets/images/projects/wildEstate/wild6.jpg';
-import WoodImage7 from '../assets/images/projects/wildEstate/wild7.jpg';
-import WoodImage8 from '../assets/images/projects/wildEstate/wild8.jpg';
-import WoodImage9 from '../assets/images/projects/wildEstate/wild9.jpg';
+// Clifton
+import clifton1 from '../assets/images/projects/Clifton/clifton1.jpg';
+import clifton2 from '../assets/images/projects/Clifton/clifton2.jpg';
+import clifton3 from '../assets/images/projects/Clifton/clifton3.jpg';
+import clifton4 from '../assets/images/projects/Clifton/clifton4.jpg';
+import clifton5 from '../assets/images/projects/Clifton/clifton5.jpg';
+import clifton7 from '../assets/images/projects/Clifton/clifton7.jpg';
+import clifton8 from '../assets/images/projects/Clifton/clifton8.jpg';
 
-// Ealysras
-import EalysrasImage1 from '../assets/images/projects/Ras/ras1.jpg';
-import EalysrasImage2 from '../assets/images/projects/Ras/ras2.jpg';
+// Lovel
+import Lovel1 from '../assets/images/projects/Lovel/lovel1.jpg';
+import Lovel2 from '../assets/images/projects/Lovel/lovel2.jpg';
+import Lovel3 from '../assets/images/projects/Lovel/lovel3.jpg';
+import Lovel4 from '../assets/images/projects/Lovel/lovel4.jpg';
+import Lovel5 from '../assets/images/projects/Lovel/lovel5.jpg';
+import Lovel6 from '../assets/images/projects/Lovel/lovel6.jpg';
 
-// Gyani Limpopo
-import GyaniImage1 from '../assets/images/projects/Gyani/gyan1.jpg';
-import GyaniImage2 from '../assets/images/projects/Gyani/gyan2.jpg';
-import GyaniImage3 from '../assets/images/projects/Gyani/gyan3.jpg';
-import GyaniImage4 from '../assets/images/projects/Gyani/gyan4.jpg';
-import GyaniImage5 from '../assets/images/projects/Gyani/gyan5.jpg';
+// Rohm
+import Rohm1 from '../assets/images/projects/Rohm/Rohm1.jpg';
+import Rohm2 from '../assets/images/projects/Rohm/Rohm2.jpg';
+import Rohm3 from '../assets/images/projects/Rohm/Rohm3.jpg';
+import Rohm4 from '../assets/images/projects/Rohm/Rohm4.jpg';
 
 // Capetown
 import CapetownImage1 from '../assets/images/projects/Capetown/cape1.jpg';
@@ -70,27 +72,27 @@ const ProjectsPage = () => {
   const projects = [
     {
       id: 1,
-      title: 'Mokopane House Project',
-      images: [MokImage2, MokImage1, MokImage3, MokImage4, MokImage5, MokImage6],
-      description: "We successfully completed a residential construction project in Mokopane, where we built a modern, durable house from the ground up. Our team managed every aspect of the build, from planning and design to construction and final touches. The result is a beautiful, functional home that meets the client's specifications and stands as a testament to our commitment to quality and attention to detail.",
+      title: 'Bella Vista Estate kaapzcht road Painting and tiling',
+      images: [Bella1, Bella2, Bella3, Bella4, Bella5, Bella6],
+      description: 'We successfully completed a painting and tiling project at Bella Vista Estate, Kaapzicht Road. Our team handled every aspect of the project, from surface preparation to the final coat of paint and tile installation. The result is a beautifully finished space that enhances the aesthetic appeal and functionality of the property.',
     },
     {
       id: 2,
-      title: 'Lephalale House Project',
-      images: [LepImage1, LepImage2, LepImage3],
-      description: "We successfully completed the construction of a new house in Lephalale. Our team handled everything from the initial design phase to the final construction, ensuring that every detail met the highest standards of quality. The result is a beautiful, sturdy home that perfectly suits the client's needs and enhances the local landscape of Lephalale.",
+      title: '149 Bobs way Eesteriver  Bathroom Renovation',
+      images: [Bobs1, Bobs2, Bobs3, Bobs4],
+      description: "We successfully completed a bathroom renovation project at 149 Bobs Way, Eesteriver. Our team managed the entire renovation process, from initial design to final installation, ensuring that every detail was executed to the highest standards. The result is a modern, functional, and aesthetically pleasing bathroom that perfectly meets the client's needs and enhances the overall appeal of their home.",
     },
     {
       id: 3,
-      title: 'Woodprut Wildlife Estate Roofing',
-      images: [WoodImage1, WoodImage2, WoodImage3, WoodImage4, WoodImage5, WoodImage6, WoodImage7, WoodImage8, WoodImage9],
-      description: 'We recently completed a roofing project in Woodprut Wildlife Estate, where we provided expert roofing services for a residential property. Our team ensured that the roofing was not only durable and weather-resistant but also aesthetically aligned with the natural surroundings of the estate. The result is a robust and visually appealing roof that complements the beauty of the wildlife estate while providing long-lasting protection.',
+      title: '6 Clifton Road, Camps Bay House Renovation',
+      images: [clifton1, clifton2, clifton3, clifton4, clifton5, clifton7, clifton8],
+      description: 'We recently completed a house renovation project at 6 Clifton Road, Camps Bay. Our team managed the entire renovation process, ensuring that every detail was executed to the highest standards. The result is a beautifully renovated home that perfectly blends modern amenities with the charm of the original structure, enhancing the overall appeal and functionality of the property.',
     },
     {
       id: 4,
-      title: 'Ealysras House Project',
-      images: [EalysrasImage1, EalysrasImage2],
-      description: "We recently completed the construction of a residential property in Ealysras. Our team took charge of the entire process, from planning and design to the final construction stages, ensuring that the house was built to the highest standards. The end result is a stylish and durable home that perfectly fits the client's vision and enhances the beauty of Ealysras.",
+      title: 'Stellenbosch Bathroom Renovation',
+      images: [Lovel1, Lovel2, Lovel3, Lovel4, Lovel5, Lovel6],
+      description: "We recently completed a bathroom renovation project in Stellenbosch. Our team managed the entire process, from initial design to final installation, ensuring that every detail was executed to the highest standards. The result is a modern, functional, and aesthetically pleasing bathroom that perfectly meets the client's needs and enhances the overall appeal of their home.",
     }, {
       id: 5,
       title: 'Capetown House Project',
@@ -98,13 +100,13 @@ const ProjectsPage = () => {
       description: "We also completed a residential construction project in Cape Town. From concept to completion, our team delivered a high-quality home that combines modern design with practical functionality. The finished property not only meets the client's specific needs but also adds to the architectural beauty of the Cape Town area.",
     }, {
       id: 6,
-      title: 'Gyani Limpopo Housing Project',
-      images: [GyaniImage1, GyaniImage2, GyaniImage3, GyaniImage4, GyaniImage5],
-      description: 'We recently completed the construction of a new home in Gyani, Limpopo. Our team managed the project from the initial design phase through to the final build, ensuring that the house was crafted with precision and care. The result is a sturdy and elegant home that meets the client’s expectations and enhances the landscape of Gyani.',
+      title: '44 Rohm rd Goodwood  Bathroom and Kitchen  Renovation',
+      images: [Rohm1, Rohm2, Rohm3, Rohm4],
+      description: 'We recently completed a bathroom and kitchen renovation project at 44 Rohm Rd, Goodwood. Our team managed the entire renovation process, from initial design to final installation, ensuring that every detail was executed to the highest standards. The result is a modern, functional, and aesthetically pleasing bathroom and kitchen that perfectly meet the needs of our client and enhance the overall appeal of their home.',
     },
   ];
 
-  const handleProjectClick = (project) => {
+  const handbobsrojectClick = (project) => {
     setSelectedProject(project);
   };
 
@@ -139,7 +141,7 @@ const ProjectsPage = () => {
                             <div
                                 key={project.id}
                                 className="project-card shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 cursor-pointer"
-                                onClick={() => handleProjectClick(project)}
+                                onClick={() => handbobsrojectClick(project)}
                                 data-aos="fade-up"
                             >
                                 <img src={project.images[0]} alt={project.title} className="w-full h-64 object-cover" />
