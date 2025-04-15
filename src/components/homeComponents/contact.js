@@ -39,7 +39,7 @@ const ContactUs = () => (
                             </div>
                             <div className="flex items-center">
                                 <svg className="w-6 h-6 mr-4 text-olive-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3v12l8 4V9l-8-4z"/></svg>
-                                <p>info@plumbing.co.za</p>
+                                <p>info@plumbingservices.co.za</p>
                             </div>
                         </div>
                     </div>

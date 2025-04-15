@@ -11,7 +11,7 @@ const Footer = () => (
             <p>© 2024 All rights reserved.</p>
             <p className="mt-2">2a Rouwkoop avenue Rondebosch Cape Town</p>
             <p>Phone: +27679013536/ +27719449136</p>
-            <p>Email: info@ptplumbing.co.za</p>
+            <p>Email: info@ptplumbingservices.co.za</p>
           </div>
           <div className="mt-6 md:mt-0 text-center">
             <h5 className="text-xl font-bold mb-2">Quick Links</h5>

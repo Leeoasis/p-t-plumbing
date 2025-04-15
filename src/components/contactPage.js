@@ -57,7 +57,7 @@ const ContactPage = () => {
                         <h2 className="text-3xl font-semibold mb-6">Contact Details</h2>
                         <p className="mb-4"><strong>Address:</strong> 2a Rouwkoop avenue Rondebosch Cape Town</p>
                         <p className="mb-4"><strong>Phone:</strong>+27679013536/ +27719449136</p>
-                        <p className="mb-4"><strong>Email:</strong> info@plumbing.co.za</p>
+                        <p className="mb-4"><strong>Email:</strong> info@plumbingservices.co.za</p>
                         <div id="map" className="w-full h-64 rounded-lg mt-4">
                             {/* Embed Google Map */}
                             <iframe
